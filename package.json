@@ -1,0 +1,23 @@
+{
+  "name": "parser_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "vercel-build": "echo hello"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@postlight/parser": "^2.2.3",
+    "express": "^4.18.2",
+    "vercel": "^32.6.1"
+  },
+  "type": "module"
+}
